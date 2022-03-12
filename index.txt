@@ -1,0 +1,53 @@
+<!doctype html>
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./dist/css/reset.css">
+        <!-- Foundation 6. style sheet -->
+        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+        <!-- jQuery 1.13.0 UI Style sheet -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+        <!-- Fontawesome icons -->
+        <script src="https://kit.fontawesome.com/f153357c8e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./dist/css/app.css">
+        <link rel="stylesheet" href="./dist/css/style.css">
+        <title>My Team</title>
+    </head>
+    
+    <body>
+        <header>
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x">
+                        <h1 class="text_center">My Team</h1>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="grid-x grid-padding-x">
+                <div class="row medium-up-3 large-up-5">
+                    <div class="columns align-center" id="teamcards"> undefined
+            <div class="column">
+                <div class="card team_card">
+                    <div class="card-divider"> steve<br>Manager</div>
+                    <div>Employee ID: 4</div>
+                    <div>E-mail: <a href="mailto:sdseney508@gmail.com">sdseney508@gmail.com</a></div>
+                    <div>Office Number: 3 </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <!-- updated to jQuery 3.6 -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- updated to jQuery UI v 1.13 -->
+        <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+    </body>
+    
+    </html>

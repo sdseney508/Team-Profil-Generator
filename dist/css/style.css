@@ -1,0 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+header {
+background-color: darkblue;
+color: aliceblue;
+min-height: 5rem;
+padding: 2rem;
+vertical-align: middle;
+
+}
+
+.text_center{
+  text-align: center;
+}
+
+.text_left{
+  text-align: left;
+}
+
+.team_card {
+  background-color: grey;
+  border: 1pt solid black;
+  color: white;
+  padding: .5rem;
+  margin: .5rem;
+  height: 8rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.623);
+  transition: 0.3s;
+}
+
+.team_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+.card_title{
+  background-color: blue;
+  padding: .1rem;
+  font-weight: bold;
+}
+
+.items-centered {
+  justify-items: right;
+}
