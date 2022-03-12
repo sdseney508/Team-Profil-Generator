@@ -1,4 +1,4 @@
-const fs = require('fs');
+ fs = require('fs');
 const inquirer = require('inquirer');
 const Manager = require('./lib/Manager');
 const Engineer = require('./lib/Engineer');
@@ -54,9 +54,8 @@ function makeCardScript(t_array) {
             </div>`;
         }
     });
-    console.log(generate_html);
-    fs.writeFileSync('index.html', build_html(generate_html), (err) =>
-        err ? console.log(err) : console.log('Successfully created index.html!')
+    fs.writeFile('index.html', build_html(generate_html), (err) =>
+        err ? console.log('Oh Oh') : console.log('Successfully created index.html!')
     )
 
 };
@@ -184,7 +183,6 @@ ${generate_html}
 function ask_questions(questions) {
     inquirer.prompt(questions).then((answers) => {
         const mgr = new Manager(answers.name, answers.id, answers.email, answers.office_num);
-        console.log(mgr);
         team_array.push(mgr);
         //pass the response about adding new team members.
         build_team(answers.build_team);
@@ -209,7 +207,6 @@ function build_team(member_type) {
     }
     else {
         //pass off to make_card_script.  output of that will be passed off to build_website
-        console.log()
         makeCardScript(team_array);
     }
 }
