@@ -53,7 +53,7 @@
 
  This project uses inquirer prompts to develop a Team Page for a Manager's Team based on the manager's inputs.  A demonstration of the usage can be found at:
  
- https://watch.screencastify.com/v/gz1HFjS3lILHGEQN8as5
+https://watch.screencastify.com/v/Q5REbGH4Eli807XvKUxc
 
  It should alos be noted that the index.html page generated uses the foundation framework and has jQuery and jQuery UI imbedded to allow for improvements by other users.  the css files found in the /dist/css folder are required for these features.  The generated html may not deploy correcctly without them.
  
