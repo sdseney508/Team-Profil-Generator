@@ -1,5 +1,6 @@
 # Team-Profil-Generator
-![image](https://user-images.githubusercontent.com/62141103/152249277-771b338a-f919-4a5c-80c8-71af8d61c463.png)
+![image](https://user-images.githubusercontent.com/62141103/158019582-19eaa684-a7fe-4a86-8b82-900b270ccf4a.png)
+
 
 ## Description
  This application generates an html page showing a manger's team based on their user inputs.    The page contains hyperlinks to the team member's emails and github profiles.
