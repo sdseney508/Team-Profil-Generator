@@ -45,7 +45,7 @@
  ## License
 
  ![badge](https://img.shields.io/badge/license-MIT-blue)
- License file can be found at: 
+ License file can be found at: https://github.com/sdseney508/Team-Profile-Generator/blob/main/LICENSE.txt
  ## Badges
 
  ## Features
